@@ -1,3 +1,3 @@
 module.exports = {
-    JWT_SECRET : "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJVc2VybmFtZSI6IlRlc3RVc2VyIiwiZXhwIjoxNzA1ODY2MjUwLCJ1c2VySWQiOiIxMjMxMzIiLCJpYXQiOjE3MDU4NjYyNTB9.rNNwttNF3jg11E1e8ljtwvngqHLwcX-KSC6dJv_dzhg"
+    JWT_SECRET : "your-secret",
 };
