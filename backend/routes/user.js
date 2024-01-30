@@ -71,7 +71,7 @@ router.post('/signup', async (req, res) => {
         const success = userSignin.safeParse(req.body);
         if(!success) {
             return res.status(411).json({
-                message: "Incorrect username or password."
+                message: "Error while logging in..."
             })
         }
 
@@ -93,7 +93,7 @@ router.post('/signup', async (req, res) => {
     
         
         res.status(411).json({
-            message: "Error while logging in."
+            message: "Invalid Username or Password!"
         })
     })
 

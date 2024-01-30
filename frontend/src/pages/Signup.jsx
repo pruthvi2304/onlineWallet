@@ -69,7 +69,7 @@ export const SignUp = () => {
             {responseMessage}
         </label>
         }
-        <div className='shadow-lg'>
+        <div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <input type="hidden" name="remember" value="true" />
           <div className="rounded-md shadow-sm -space-y-px">
