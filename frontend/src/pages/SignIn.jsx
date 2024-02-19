@@ -49,7 +49,7 @@ export const SignIn = () => {
         }catch(e){
             console.log('Error submitting form:', e.response.data);
             setResponseMessage(e.response.data.message);
-            setSignupSuccess(false);
+            setSignInSuccess(false);
         }
       };
     
